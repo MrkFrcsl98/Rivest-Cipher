@@ -1,8 +1,11 @@
 # RC Ciphers Library
-
-![GitHub Repo stars](https://img.shields.io/github/stars/runaway666666/RC?style=social)
-![GitHub forks](https://img.shields.io/github/forks/runaway666666/RC?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/runaway666666/RC)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![C++17 Ready](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
+[![RSA Algorithm](https://img.shields.io/badge/algorithm-RSA-lightgrey.svg)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+[![Key Sizes: Customizable](https://img.shields.io/badge/key%20sizes-customizable-green.svg)](https://en.wikipedia.org/wiki/RSA_(cryptosystem)#Key_generation)
+[![Asymmetric Encryption](https://img.shields.io/badge/type-asymmetric-important.svg)](https://en.wikipedia.org/wiki/Public-key_cryptography)
+[![Header-only](https://img.shields.io/badge/header--only-yes-critical.svg)](https://github.com/MrkFrcsl98/Rivest-Cipher)
+[![Status: Educational](https://img.shields.io/badge/status-educational-important.svg)](#security-notes)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Language](https://img.shields.io/badge/language-C%20%7C%20C%2B%2B-blue)
 
@@ -223,24 +226,3 @@ int main() {
 
 - **C version (`rc.h`)**: Optimized for speed, with minimal abstraction and maximum portability. Recommended for high-performance applications, embedded systems, or cryptographic research.
 - **C++ version (`rc.hpp`)**: Designed for ease of use, with a modern C++ interface, automatic block handling, and `std::string` support. Ideal for education, application prototyping, and high-level use.
-
----
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## References
-
-- [RC2 RFC 2268](https://datatracker.ietf.org/doc/html/rfc2268)
-- [RC4 Wikipedia](https://en.wikipedia.org/wiki/RC4)
-- [RC5 Wikipedia](https://en.wikipedia.org/wiki/RC5)
-- [RC6 Wikipedia](https://en.wikipedia.org/wiki/RC6)
-- [Applied Cryptography, Bruce Schneier](https://www.schneier.com/books/applied_cryptography/)
-- [RSA Laboratories FAQ](https://www.rsa.com/en-us/blog/2017-04/ron-s-rivest-s-ciphers-rc2-rc4-rc5-and-rc6.html)
-
----
-
-**If you want the fastest possible execution and direct control, use the C version. If you want a higher-level overview, intuitive use, or are new to cryptography, the C++ version is for you!**
